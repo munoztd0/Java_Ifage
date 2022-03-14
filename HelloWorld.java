@@ -15,5 +15,13 @@ public class HelloWorld{
         System.out.print(john);
         john.marcher();
 
+        Stagiaire bob = new Stagiaire();
+
+        bob.nom = "Alice";
+        bob.prenom = "Bob";
+        bob.dateDebut = "11mars";
+        System.out.print(bob);
+        bob.marcher();
+
     }
 }
